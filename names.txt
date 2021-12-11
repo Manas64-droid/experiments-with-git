@@ -6,4 +6,14 @@ git init
 ls -a
 clear
 git status
-
+cat names.txt
+vi <file name>
+ (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+ (use "git add" and/or "git commit -a")
+git restore --staged names.txt
+git log
+rm -rf names.txt
+git reset f8e68a400efdbe9f048b82ab1b9c220f864412c1
+git remote add origin https://github.com/Manas64-droid/experiments-with-git
+git push origin
