@@ -1,0 +1,9 @@
+mkdir project
+touch names.txtcls
+cd Desktop/
+ls
+git init
+ls -a
+clear
+git status
+
